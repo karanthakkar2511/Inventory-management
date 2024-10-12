@@ -1,0 +1,40 @@
+.footer {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Subtle gradient background */
+    padding: 40px 20px; /* More padding for a spacious feel */
+    text-align: center;
+    border-top: none; /* Removed border */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for depth */
+    color: #fff; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean font choice */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px; /* Increased font size for better readability */
+    font-weight: 500; /* Slightly bolder text */
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d1e3f8; /* Light color for links */
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease; /* Added transform for hover effect */
+}
+
+.footer-link:hover {
+    color: #fff; /* Brighter hover color */
+    transform: translateY(-3px); /* Lifting effect on hover */
+}
+
+.footer-link:active {
+    transform: translateY(1px); /* Slight press-down effect on click */
+}

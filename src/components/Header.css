@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly between logo and links */
+    align-items: center;
+    padding: 20px 40px; /* More padding for a premium feel */
+    background: linear-gradient(135deg, #ff6f61, #ff9478); /* Vibrant gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    color: #fff; /* White text for better contrast */
+}
+
+.header-logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px; /* Slightly spaced letters for a modern look */
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px; /* Adds consistent spacing between links */
+}
+
+.header-link {
+    text-decoration: none;
+    color: #fff; /* White links for a clean look */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners for modernity */
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle background for buttons */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+.header-link:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Brighter background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.header-link:active {
+    transform: translateY(1px); /* Press-down effect on click */
+}
